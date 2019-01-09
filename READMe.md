@@ -1,67 +1,53 @@
-## Exercice MarkDown Group
+# Profil
 
-### Collaborators :
-* Meilyn ANDRADE
-
-### When: 
-9 Janvier 2019 
-
-### Where:
-BeCode Junior Web Developper.
-
-### What’s Markdown?
-Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages.
-
-Using Markdown is different than using a [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.
-
-
-![Imagen Statique](statique-imagen.png)
-
-![Imagen Gif](https://media.giphy.com/media/JmaC9146U81B6/giphy.gif)
-
-# Make a README
-#### Because no one can read your mind (yet).
-
-## MarkDown Syntax
-
-#### HEADERS
-
- * ```# This is an  <h1> tag ```
- * ```## This is an  <h2> tag ```
-
-#### LIST Unordered
-	* Item 1
-	* Item 2
-		* Item 2a
-		* Item 2b
-		
-#### LIST Ordered
-1. Item 1
-2. Item 2
-	* Item 2a
-	* Item 2b
-
-#### EMPHASIS
- ``` *This text will be italic*
- 	 *This text will be italic*
-    _This will also be italic_
-    **This text will be bold**
-    __This will also be bold__
-    *You **can** combine them* 
- ```
-
-#### Code
-```
-<script type="text/javascript">
-    alert("Hello!");
-</script>
-
+![alt text](Mei.jpg)
+	
+``` 
+	{
+  "Prénom": "Meilyn",
+  "Nom": "ANDRADE",
+  "Age": 29;
+  "Occupation": "Junior Web Developper";
+  }
+  
 ```
 
-#### Links
 
-[Github Profil](https://github.com/Meilyn)
-[Linkedin]()	
+Je suis née en Honduras et j'habite en Belgique depuis 10 ans. J'ai commence l'informatique à l'âge de 13 ans et j'ai fait 3 ans des études pour devenir technicienne en informatique (études de 3 ans). 
+
+Arrivée en Belgique à l'âge de 18 ans, J'ai commence à travailler dans le milieu informatique en Belgique. j'ai travaille 7 ans et maintenant j'aimerais me mettre à jour dans le milieu informatique. 
+Dès là ma formation à Becode.  
+
+## Langues
+1. Espagnol ( Langue Maternelle)
+2. Français
+3. Anglais 
+4. Néerlandais (Débutant).
+
+## Hobbies
+
+* Informatique
+* Voyager
+* Langues.
+* CyberSecurity
+* Culture Japonaise
+
+## Connaissances informatiques
+
+* HTML & CSS 
+* Javascript
+* PHP
+* Wordpress
+* Photoshop
+* Montage Video
+* Installation réseaux informatiques.
+* Khali
+
+
+
+
+
+
 
 
 
