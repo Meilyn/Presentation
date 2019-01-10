@@ -1,24 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
+	<meta name="description" content="Exercice de Presentation HTML">
+	<meta name="keywords" content="Becode, Junior Web Developper">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Presentation Meilyn ANDRADE</title>
 </head>
-<body>
-	<h1>Profil</h1>
-	<img src="Mei.jpg" 	alt="Photo de Profil Andrade"><br><br>
-	<blockquote>
-		{<br>
-  "Prénom": "Meilyn",<br>
-  "Nom": "ANDRADE",<br>
-  "Age": 29;<br>
-  "Occupation": "Junior Web Developper";<br>
-  }
-	</blockquote>
-	<p>Je suis née en Honduras et j'habite en Belgique depuis 10 ans. J'ai commence l'informatique à l'âge de 13 ans et j'ai fait 3 ans des études pour devenir technicienne en informatique (études de 3 ans). <br>
+<body class="display">
+	<style>
+		.display {
+			display: block;
+			width: 600px;
+			margin: auto auto;
+			background-color: #435361;
+			box-shadow: gray;
+		}
+		.center {
+			border-color: 3px solid gray;
+			background-color: white;
+			padding: 10px;
+		}
+		table {
+			border: 0,5px solid gray;
+			width: 100%;
+			text-align: left;
+		}
 
-Arrivée en Belgique à l'âge de 18 ans, J'ai commence à travailler dans le milieu informatique en Belgique. j'ai travaille 7 ans et maintenant j'aimerais me mettre à jour dans le milieu informatique. 
-Dès là ma formation à Becode.</p>
+		th {
+			background-color: #435361;
+			color: white;
+		}
+		th, td {
+			text-align: left;
+			padding: 8px;
+		}
+		tr:nth-child(even) {
+			background-color: #dddddd;
+		}
+
+		h2 {
+			background-color: #435361 ;
+			padding: 10px;
+			color: white;
+		}	
+	</style>
+<div class="center" style="align-content: center">
+	<h1 style="text-align: center">Presentation</h1>
+		
+		<img src="Mei.jpg" 	alt="Photo de Profil Meilyn Andrade" width="300" height="200" style="text-align: center;"> <br><br>
+		<blockquote style="background-color: #435361;color: white;width:150">
+			{<br>
+		  "Prénom": "Meilyn",<br>
+		  "Nom": "ANDRADE",<br>
+		  "Age": 29;<br>
+		  "Occupation": "Junior Web Developper";<br>
+		  }
+		</blockquote>
+
+	<p> Je suis née en Honduras et j'habite en Belgique depuis 10 ans. J'ai commence l'informatique à l'âge de 13 ans et 	j'ai fait 3 ans des études pour devenir technicienne en informatique. <br>
+
+		Arrivée en Belgique à l'âge de 18 ans, J'ai commence à travailler dans le milieu informatique en Belgique. j'ai travaille 7 ans et maintenant j'aimerais me mettre à jour dans le milieu informatique. 
+		Dès là ma formation à Becode.
+	</p>
 
 <h2>Langues</h2>
 	<ol>
@@ -28,7 +72,11 @@ Dès là ma formation à Becode.</p>
 		<li>Néerlandais (Débutant).</li>
 	</ol>
 <h2>Hobbies</h2>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/9UtlLLgXl_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	</iframe>
+
 	<ul>
+		<li>Musique</li>
 		<li>Informatique</li>
 		<li>Voyager</li>
 		<li>Langues</li>
@@ -46,5 +94,32 @@ Dès là ma formation à Becode.</p>
 		<li>Installation réseaux informatiques.</li>
 		<li>Khali</li>
 	</ul>
+	<table>
+		<h2>Menu Semaine</h2>
+		<tr>
+			<th>Lundi</th>
+			<th>Mardi</th>
+			<th>Mercredi</th>
+			<th>Jeudi</th>
+			<th>Vendredi</th>
+		</tr>
+		<tr>
+			<td>Chili con Carne</td>
+			<td>Haricots & riz</td>	
+			<td>Soupe de poisson</td>
+			<td>Sandwich </td>
+			<td>Couscous</td>
+		</tr>
+		<tr>
+			<td>Chicon</td>
+			<td>Salade</td>
+			<td>Tomato Soup</td>
+			<td>Cordon Blue</td>
+			<td>Steak Frits</td>
+		</tr>
+	</table><br>
+	<h2>Localisation <BeCode></h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10076.935123724457!2d4.357285!3d50.845355!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcbd18b1ea8412062!2sBeCode+Brussels!5e0!3m2!1sfr!2sbe!4v1547127786490" width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>	
 </body>
 </html>
