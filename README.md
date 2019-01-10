@@ -8,10 +8,12 @@
   "Nom": "ANDRADE",
   "Age": 29;
   "Occupation": "Junior Web Developper";
+  "Où":"BeCode";
   }
   
 ```
 
+[Lien HTML PRESENTATION](https://meilyn.github.io/Presentation/)
 
 Je suis née en Honduras et j'habite en Belgique depuis 10 ans. J'ai commence l'informatique à l'âge de 13 ans et j'ai fait 3 ans des études pour devenir technicienne en informatique (études de 3 ans). 
 
